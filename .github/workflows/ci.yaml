@@ -1,5 +1,8 @@
 name: golang-ci-actions
-on: [push]
+on:
+  push:
+    branchs: 
+      - develop
 jobs: 
   check-application: 
     runs-on: ubuntu-latest
