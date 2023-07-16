@@ -1,6 +1,6 @@
 name: golang-ci-actions
 on:
-  push:
+  pull_request:
     branchs: 
       - develop
 jobs: 
